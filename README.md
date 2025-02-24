@@ -1,81 +1,50 @@
-# NextAdmin - Next.js Admin Dashboard Template and Components
+LinkedIn Connection Manager
+LinkedIn Connection Manager is a powerful tool designed to help you efficiently manage your LinkedIn connections. This system organizes all your connections and provides insights into whom you should engage with—whether by commenting, liking, or prioritizing important connections. It also allows users to set preferences for engagement and mark connections as important to ensure they appear first.
 
-**NextAdmin** is a Free, open-source Next.js admin dashboard toolkit featuring 200+ UI components and templates that come with pre-built elements, components, pages, high-quality design, integrations, and much more to help you create powerful admin dashboards with ease.
+Features
+Connection Management – Store and organize all your LinkedIn connections in one place.
+Engagement Tracking – Get recommendations on which connections to like or comment on based on user-defined settings.
+Prioritization – Mark important connections to ensure they appear first in your engagement list.
+Custom User Settings – Set preferences for how and when to engage with specific connections.
+Automated Insights – Gain actionable insights to maintain meaningful LinkedIn interactions.
 
+Installation
+Clone the repository and navigate to the project directory:
 
-[![nextjs admin template](https://cdn.pimjo.com/nextadmin-2.png)](https://nextadmin.co/)
+bash
+Copy
+Edit
+git clone <repo-url>
+cd linkedin-connection-manager
+Install dependencies using npm or yarn:
 
-
-**NextAdmin** provides you with a diverse set of dashboard UI components, elements, examples and pages necessary for creating top-notch admin panels or dashboards with **powerful** features and integrations. Whether you are working on a complex web application or a basic website, **NextAdmin** has got you covered.
-
-### [✨ Visit Website](https://nextadmin.co/)
-### [🚀 Live Demo](https://demo.nextadmin.co/)
-### [📖 Docs](https://docs.nextadmin.co/)
-
-By leveraging the latest features of **Next.js 14** and key functionalities like **server-side rendering (SSR)**, **static site generation (SSG)**, and seamless **API route integration**, **NextAdmin** ensures optimal performance. With the added benefits of **React 18 advancements** and **TypeScript** reliability, **NextAdmin** is the ultimate choice to kickstart your **Next.js** project efficiently.
-
-## Installation
-
-1. Download/fork/clone the repo and Once you're in the correct directory, it's time to install all the necessary dependencies. You can do this by typing the following command:
-
-```
+nginx
+Copy
+Edit
 npm install
-```
-If you're using **Yarn** as your package manager, the command will be:
+OR
 
-```
+nginx
+Copy
+Edit
 yarn install
-```
+Start the development server:
 
-2. Okay, you're almost there. Now all you need to do is start the development server. If you're using **npm**, the command is:
-
-```
+arduino
+Copy
+Edit
 npm run dev
-```
-And if you're using **Yarn**, it's:
+OR
 
-```
+nginx
+Copy
+Edit
 yarn dev
-```
+Now, your LinkedIn Connection Manager is up and running!
 
-And voila! You're now ready to start developing. **Happy coding**!
-
-## Highlighted Features
-**200+ Next.js Dashboard Ul Components and Templates** - includes a variety of prebuilt **Ul elements, components, pages, and examples** crafted with a high-quality design.
-Additionally, features seamless **essential integrations and extensive functionalities**.
-
-- A library of over **200** professional dashboard UI components and elements.
-- Five distinctive dashboard variations, catering to diverse use-cases.
-- A comprehensive set of essential dashboard and admin pages.
-- More than **45** **Next.js** files, ready for use.
-- Styling facilitated by **Tailwind CSS** files.
-- A design that resonates premium quality and high aesthetics.
-- A handy UI kit with assets.
-- Over ten web apps complete with examples.
-- Support for both **dark mode** and **light mode**.
-- Essential integrations including - Authentication (**NextAuth**), Database (**Postgres** with **Prisma**), and Search (**Algolia**).
-- Detailed and user-friendly documentation.
-- Customizable plugins and add-ons.
-- **TypeScript** compatibility.
-- Plus, much more!
-
-All these features and more make **NextAdmin** a robust, well-rounded solution for all your dashboard development needs.
-
-## Update Logs
-
-### Version 1.2.0 - Major Upgrade and UI Improvements - [Jan 27, 2025]
-
-- Upgraded to Next.js v15 and updated dependencies
-- API integration with loading skeleton for tables and charts.
-- Improved code structure for better readability.
-- Rebuilt components like dropdown, sidebar, and all ui-elements using accessibility practices.
-- Using search-params to store dropdown selection and refetch data.
-- Semantic markups, better separation of concerns and more.
-
-### Version 1.1.0
-- Updated Dependencies
-- Removed Unused Integrations
-- Optimized App
-
-### Version 1.0
-- Initial Release - [May 13, 2024]
+Update Logs
+Version 1.0.0 - Initial Release
+Implemented connection storage and management.
+Added user settings for engagement preferences.
+Developed connection prioritization features.
+Set up insights and engagement tracking.
